@@ -1,4 +1,5 @@
-import sys, os
+import sys
+import os
 
 
 def read_circle(file1):

@@ -5,7 +5,7 @@ def read_circle(file1):
     with open(file1, 'r') as file:
         x, y = map(int, file.readline().split())
         r = int(file. readline())
-    file.close()
+    
     return (x, y), r
 
 
@@ -16,7 +16,7 @@ def read_points(file2):
             x, y = line.split()
             point = (int(x), int(y))
             points.append(point) 
-    file.close()
+    
     return points
 
 
